@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 995620487168135169,
+      "job_id": "f670d410-7094-45a0-a60e-7c749aa858a4",
+      "query": "REPLICATE [db2].[newtable1] WITH maxparallelpartitions = '2', enableparallelreadpartitioning = 'true', IncrementalCheckColumns = 'id', partitionsize = '180' SELECT * FROM [dbo].[newtable1]",
+      "is_active": true
+    },
+    {
+      "id": 995620898444808193,
+      "job_id": "f670d410-7094-45a0-a60e-7c749aa858a4",
+      "query": "REPLICATE [db2].[employees2] WITH maxparallelpartitions = '2', enableparallelreadpartitioning = 'true', IncrementalCheckColumns = 'id', partitionsize = '180' SELECT ISNULL([id], 10) AS [id], [age], [name] FROM [dbo].[employees2]",
+      "is_active": true
+    }
+  ]
+}

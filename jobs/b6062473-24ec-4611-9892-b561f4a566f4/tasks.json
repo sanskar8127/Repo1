@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 995622062213173248,
+      "job_id": "b6062473-24ec-4611-9892-b561f4a566f4",
+      "query": "REPLICATE [accounts] SELECT * FROM [db2].[accounts]",
+      "is_active": true
+    },
+    {
+      "id": 995622062213173249,
+      "job_id": "b6062473-24ec-4611-9892-b561f4a566f4",
+      "query": "REPLICATE [activeprofilemetric] SELECT * FROM [db2].[activeprofilemetric]",
+      "is_active": true
+    }
+  ]
+}

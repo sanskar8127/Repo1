@@ -1,0 +1,24 @@
+{
+  "id": "6c1c21f3-03e8-4e29-ba96-ef016a11f55e",
+  "display_name": "Informix",
+  "name": "informix",
+  "connector": {
+    "name": "Informix",
+    "version": "latest"
+  },
+  "properties": {
+    "Database": "mydb",
+    "Password": "SECURE:ztitJWJd++060qgKkbePdXr2r5mhfqHGTCqUBbOK/l5eoCFODYED5HepBkpJn4Dx/Y+w7Fv5",
+    "Port": "9088",
+    "DELIMIDENT": "y",
+    "Host": "localhost",
+    "User": "informix"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

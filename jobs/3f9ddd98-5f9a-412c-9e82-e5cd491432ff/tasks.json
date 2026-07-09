@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 995601285543759873,
+      "job_id": "3f9ddd98-5f9a-412c-9e82-e5cd491432ff",
+      "query": "REPLICATE [test2] SELECT * FROM [informix].[test2]",
+      "is_active": true
+    }
+  ]
+}
