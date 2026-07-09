@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 995627710522986497,
+      "job_id": "2c8929e2-4ac2-48fe-aa77-858c380295db",
+      "query": "insert into customers1 values(10111111,'regtg',52)",
+      "is_active": true
+    }
+  ]
+}
